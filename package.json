@@ -4,7 +4,7 @@
   "description": "Recipist",
   "scripts": {
     "start": "parcel starter/index.html",
-    "build": "parcel build starter/index.html --dist-dir"
+    "build": "parcel build starter/index.html --dist-dir ./dist"
   },
   "author": "Malik Bilawal",
   "license": "ISC",
@@ -15,7 +15,6 @@
     "regenerator-runtime": "^0.14.1"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.13.3",
-    "svgo": "^3.3.2"
+    "@parcel/transformer-sass": "^2.13.3"
   }
 }
